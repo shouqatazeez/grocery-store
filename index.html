@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grocery Store</title>
+	<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+<link rel="icon" type="image/icon" href="images/favicon.PNG">
+
+</head>
+<body>
+	<header class="header">
+		<a href="#" class="logo" aria-label="Grocery Store"> <i class="fa fa-shopping-basket" aria-hidden="true"></i> grocery </a>
+		<nav class="navbar">
+			<a href="#home">home</a>
+			<a href="#features">features</a>
+			<a href="#products">products</a>
+			<a href="#categories">categories</a>
+			<a href="#reviews">reviews</a>
+			<a href="#blogs">blogs</a>
+		</nav>
+       <div class="icons">
+		<div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+		<div class="fa fa-shopping-cart" id="cart-btn"></div>
+		<div class="fa fa-user" id="login-btn"></div>
+		
+		
+	   </div>
+
+     <form class="search-form">
+		<input type="search" id="search-box" placeholder="search Here...">
+		<label for="search-box" class="fa fa-search"></label>
+	 </form>
+
+	 <div class="shopping-cart">
+		<div class="box">
+			<i class="fa fa-trash"></i>
+			<img src="images/cart-img-1.png">
+			<div class="content">
+				<h3>Watermelon</h3>
+				<span class="price">$10/-</span>
+				<span class="quantity">Qty : 1</span>
+			</div>
+		</div>
+		<div class="box">
+			<i class="fa fa-trash"></i>
+			<img src="images/cart-img-2.png">
+			<div class="content">
+				<h3>Onion</h3>
+				<span class="price">$2.8/-</span>
+				<span class="quantity">Qty : 8</span>
+			</div>
+		</div>
+		<div class="box">
+			<i class="fa fa-trash"></i>
+			<img src="images/cart-img-3.png">
+			<div class="content">
+				<h3>Chicken</h3>
+				<span class="price">$20.2/-</span>
+				<span class="quantity">Qty : 1</span>
+			</div>
+		</div>
+		<div class="total"> total : $42/- </div>
+		<a href="#" class="btn">Checkout</a>
+	 </div>
+
+
+     <form action="#" class="login-form">
+		<h3>login form</h3>
+		<input type="email" placeholder=" your email" class="box">
+		<input type="password" placeholder=" your password" class="box">
+
+     <p>Forget Your Password <a href="#">Click Here</a></p>
+	 <p>Don't Have An Account<a href="#">Create Now</a></p>
+
+
+		<input type="submit" value="Login Now" class="btn">
+
+	 </form>
+
+
+
+
+	</header>
+
+
+
+<!--banner section-->
+<section class="home" id="home">
+	<div class="content">
+		<h3>Fresh And <span>Organic</span> products For You</h3>
+		<p>Welcome to Grocery - your destination for premium, fresh, and organic products. Explore our carefully curated selection for a healthier and more convenient shopping experience. From crisp fruits to nourishing vegetables, Grocary ensures top-quality items that reflect our commitment to your well-being. Elevate your lifestyle with us!</p>
+       <a href="#" class="btn">Shop now</a>
+	</div>
+
+</section>
+
+
+
+
+<!--banner section-->
+
+<!--our feature section-->
+<section class="features" id="features">
+<h1 class="heading"> Our <span>Features</span></h1>
+
+<div class="box-container">
+	<div class="box">
+		<img src="/images/feature-img-1.png">
+		<h3>Fresh And Organic</h3>
+		<p>Experience the crisp taste of freshness at Grocery, where every product is handpicked for optimal quality. Embrace a healthier lifestyle with our organic selections, ensuring pure and wholesome goodness in every bite.</p>
+       <a href="#" class="btn">Read More</a>
+	</div>
+
+	<div class="box">
+		<img src="/images/feature-img-2.png">
+		<h3>Free Delivery</h3>
+		<p>Enjoy the convenience of free delivery at Grocery – because we believe in bringing your fresh and organic selections right to your doorstep without any extra cost. </p>
+
+       <a href="#" class="btn">Read More</a>
+	</div>
+
+	<div class="box">
+		<img src="/images/feature-img-3.png">
+		<h3>Easy Payments</h3>
+		<p>Experience easy payments at Grocery, where simplicity meets convenience. Our user-friendly payment options ensure a seamless checkout process, allowing you to enjoy your fresh and organic selections without any hassle.</p>
+
+       <a href="#" class="btn">Read More</a>
+	</div>
+</div>
+</section>
+
+<section class="products" id="products">
+<h1 class="heading">
+	Our<span>Products</span>
+</h1>
+<div class="swiper product-slider">
+	<div class="swiper-wrapper">
+     <div class="swiper-slide box">
+	<img src="images/product-1.png">
+
+	<h1>Fresh Orange</h1>
+     <div class="price"> $12.99/- - 15.99/-</div>
+	 <div class="stars">
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star-half"></i>
+	 </div>
+	 <a href="" class="btn">add to cart</a>
+	 </div>
+
+    
+	 <div class="swiper-slide box">
+		<img src="images/product-2.png">
+	
+		<h1>Fresh Onion</h1>
+		 <div class="price"> $10.99/- - 13.99/-</div>
+		 <div class="stars">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<!-- <i class="fa fa-star-half"></i> -->
+		 </div>
+		 <a href="" class="btn">add to cart</a>
+		 </div>
+
+		 <div class="swiper-slide box">
+			<img src="images/product-3.png">
+		
+			<h1>Fresh meat</h1>
+			 <div class="price"> $15.99/- - 18.99/-</div>
+			 <div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			 </div>
+			 <a href="" class="btn">add to cart</a>
+			 </div>
+
+			 <div class="swiper-slide box">
+				<img src="images/product-4.png">
+			
+				<h1>Fresh cabbage</h1>
+				 <div class="price"> $2.99/- - 5.99/-</div>
+				 <div class="stars">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<!-- <i class="fa fa-star"></i> -->
+					<!-- <i class="fa fa-star-half"></i> -->
+				 </div>
+				 <a href="" class="btn">add to cart</a>
+				 </div>
+
+				 <!-- <div class="wrapper"> -->
+					
+			   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="swiper product-slider">
+	<div class="swiper-wrapper">
+     <div class="swiper-slide box">
+	<img src="images/product-8.png">
+
+	<h1>Fresh lemon</h1>
+     <div class="price"> $2.99/- - 3.99/-</div>
+	 <div class="stars">
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+	 </div>
+	 <a href="#" class="btn">add to cart</a>
+	 </div>
+
+    
+	 <div class="swiper-slide box">
+		<img src="images/product-5.png">
+	
+		<h1>Fresh potato</h1>
+		 <div class="price"> $1.99/- - 3.99/-</div>
+		 <div class="stars">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<!-- <i class="fa fa-star-half"></i> -->
+		 </div>
+		 <a href="#" class="btn">add to cart</a>
+		 </div>
+
+		 <div class="swiper-slide box">
+			<img src="images/product-6.png">
+		
+			<h1>Fresh avocados</h1>
+			 <div class="price"> $9.99/- - 10.99/-</div>
+			 <div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			 </div>
+			 <a href="#" class="btn">add to cart</a>
+			 </div>
+
+			 <div class="swiper-slide box">
+				<img src="images/product-7.png">
+			
+				<h1>Fresh carrot</h1>
+				 <div class="price"> $10.99/- - 12.99/-</div>
+				 <div class="stars">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<!-- <i class="fa fa-star-half"></i> -->
+				 </div>
+				 <a href="#" class="btn">add to cart</a>
+				 </div>
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+</div>
+</section>
+<section class="categories" id="categories">
+<h1 class="heading"> Product <span>categories</span>
+</h1>
+<div class="box-container">
+	<div class="box">
+		<img src="/images/cat-1.png">
+		<h3>vegetables</h3>
+		<p>Upto 45% Off</p>
+		<a href="#" class="btn">Shop now</a>
+
+	</div>
+
+	<div class="box">
+		<img src="/images/cat-2.png">
+		<h3>fresh fruits</h3>
+		<p>Upto 25% Off</p>
+		<a href="#" class="btn">Shop now</a>
+
+	</div>
+
+	<div class="box">
+		<img src="/images/cat-3.png">
+		<h3>diary products</h3>
+		<p>Upto 20% Off</p>
+		<a href="#" class="btn">Shop now</a>
+
+	</div>
+
+	<div class="box">
+		<img src="/images/cat-4.png">
+		<h3>fresh meat</h3>
+		<p>Upto 15% Off</p>
+		<a href="#" class="btn">Shop now</a>
+
+	</div>
+</div>
+</section>
+
+<section class="review" id="review">
+	<h1 class="heading"> customer's <span>review</span></h1>
+	<div class=" swiper review-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide box">
+				<img src="images/pic-1.png">
+				<p>Grocery has transformed my grocery shopping experience. The website is easy to navigate, and the variety of fresh and organic products is impressive. Quality and convenience at their best!</p>
+				<h3>john deo</h3>
+				<div class="stars">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				 </div>
+
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="images/pic-2.png">
+				<p>I'm a loyal customer because Grocery consistently delivers top-notch products. The website is user-friendly, and the organic options never disappoint. 5 stars for quality, variety, and service!</p>
+
+				<h3>Isabella
+				</h3>
+				<div class="stars">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				 </div>
+
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="images/pic-3.png">
+				<p>Impressed with Grocery's product range! The website is well-designed, and the quality of the groceries is outstanding. From fresh produce to organic choices, it's my one-stop-shop for premium goods.</p>
+
+				<h3>Mateo</h3>
+
+				<div class="stars">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				 </div>
+
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="images/pic-4.png">
+				<p>Grocery has set a new standard for online grocery shopping. The website is intuitive, and the products, especially the organic ones, are of exceptional quality. A reliable source for healthy and delicious options!</p>
+
+				<h3>Sofia
+				</h3>
+				<div class="stars">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<!-- <i class="fa fa-star-half"></i> -->
+				 </div>
+
+
+			</div>
+		</div>
+	</div>
+	
+
+</section>
+
+
+<section class="blogs" id="blogs">
+    <h1 class="heading">Our <span>Blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/blog-1.jpg">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i></a>
+                    <a href="#"><i class="fa fa-calendar">29th Jan, 2023</i></a>
+                </div>
+                <h3>Cherry Bliss: A Symphony of Sweetness</h3>
+                <p>Indulge in the pure delight of our cherry offerings at our Grocery Store. Bursting with natural sweetness, our succulent cherries promise a taste of freshness in every bite, making them the perfect addition to elevate your culinary experience.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/blog-2.jpg">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i></a>
+                    <a href="#"><i class="fa fa-calendar">29th Jan, 2023</i></a>
+                </div>
+                <h3>Harvesting Health: The Organic Symphony of Nature's Bounty</h3>
+                <p>Embark on a journey of health and sustainability with our thoughtfully curated collection. From vibrant leafy greens to crisp, colorful bell peppers, our organic vegetables not only tantalize your taste buds but also support a greener, more eco-conscious lifestyle. </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/blog-3.jpg">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa fa-user"></i></a>
+                    <a href="#"><i class="fa fa-calendar">29th Jan, 2023</i></a>
+                </div>
+                <h3>Fresh and Organic Delights: Nourishing Your Plate and Palate</h3>
+                <p>Dive into a world of freshness at our Grocery Store, where our dedication to organic goodness transforms every meal. Our vibrant selection of fresh vegetables is a symphony of flavors, bringing nature's bounty straight to your plate.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<sectiion class="footer">
+	<div class="box-container">
+		<div class="box">
+			<h3>Groco <i class="fa fa-shopping-basket"></i></h3>
+			<p>feel free to follow us on our social medai handlers all links are given below</p>
+			<div class="share">
+				
+				<a href="#" class="fa fa-instagram" ></a>
+				<a href="#" class="fa fa-twitter" ></a>
+				<a href="#" class="fa fa-linkedin" ></a>
+				<a href="#" class="fa fa-facebook" ></a>
+				
+				
+			</div>
+		</div>
+
+
+		<div class="box">
+			<h3>contact info</h3>
+			<a href="#" class="fa fa-links"><i class="fa fa-phone"></i>+91 98765 43210
+			</a>
+			<a href="#" class="fa fa-links"><i class="fa fa-phone"></i>+91 87654 32109
+
+			</a>
+			<a href="#" class="fa fa-links"><i class="fa fa-envelope"></i>grocery@store.com
+
+			</a>
+			<a href="#" class="fa fa-links"><i class="fa fa-map-marker"></i>andhra pradesh,india
+
+			</a>
+		
+		
+		</div>
+
+
+		<div class="box">
+			<h3>quick links</h3>
+			<a href="#" class="fa fa-links"><i class="fa fa-arrow-right"></i>home</a>
+			<a href="#" class="fa fa-links"><i class="fa fa-arrow-right"></i>features</a>
+			<a href="#" class="fa fa-links"><i class="fa fa-arrow-right"></i>products</a>
+			<a href="#" class="fa fa-links"><i class="fa fa-arrow-right"></i>categories</a>
+			<a href="#" class="fa fa-links"><i class="fa fa-arrow-right"></i>review</a>
+			<a href="#" class="fa fa-links"><i class="fa fa-arrow-right"></i>blogs</a>
+		</div>
+		
+		<div class="box">
+			<h3>newsletter</h3>
+			<p>subscribe for latest updates</p>
+			<input type="email" placeholder="your email" class="email">
+			<input type="submit" value="subscribe"  class="btn">
+			<img src="images/payment.png" class="payment">
+		</div>	
+		
+		
+		
+	</div>
+
+	<p class="created-by">Created with <i class="fa fa-heart"></i> by <span>Mohammad Shouqat Azeez</span>, 2024</p>
+
+</sectiion>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+	
+
+	<script src="script.js"></script>
+</body>
+
+</html>
